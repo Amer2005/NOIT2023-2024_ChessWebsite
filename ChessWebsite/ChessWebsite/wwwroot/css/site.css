@@ -1,0 +1,68 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #ECEBE8;
+}
+
+.chess-container {
+    width: min(50vw, 80vh);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chess-white {
+    height: min(6.25vw, 10vh);
+    width: min(6.25vw, 10vh);
+    background-color: #F0D9B5;
+}
+
+.chess-black {
+    height: min(6.25vw, 10vh);
+    width: min(6.25vw, 10vh);
+    background-color: #B58863;
+}
+
+.chess-play-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 0px;
+}
+
+.playbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px;
+    height: min(50vw, 80vh);
+    width: 20vw;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.playbuttons input {
+    background-color: #F1F1F1;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 7%;
+    width: 80%;
+    margin: 10px;
+}

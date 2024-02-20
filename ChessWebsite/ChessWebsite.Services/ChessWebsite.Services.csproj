@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChessWebsite.Data.Models\ChessWebsite.Data.Models.csproj" />
+    <ProjectReference Include="..\ChessWebsite.Data\ChessWebsite.Data.csproj" />
+    <ProjectReference Include="..\ChessWebsite.Web.ViewModels\ChessWebsite.Web.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
